@@ -16,7 +16,8 @@ export default class App extends Component {
   }
 
   makeLi(person){
-    return <li>Space-person {person.name} is currently on the {person.craft}</li>
+    
+    return <ul><li> {person.name}, Astronaut, is currently on the {person.craft} Space Craft</li></ul>
   }
 
   render(){
